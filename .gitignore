@@ -8,3 +8,6 @@ cmd/charmload/charmload
 .emacs.desktop
 .emacs.desktop.lock
 *.test
+
+# Keep empty directories:
+# Keep empty directories: >> .gitignore/.git*
