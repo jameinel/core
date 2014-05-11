@@ -3,7 +3,7 @@ package osenv_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/wallyworld/core/juju/osenv"
 )
 
 func (s *importSuite) TestHomeLinux(c *gc.C) {

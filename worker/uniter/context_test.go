@@ -14,17 +14,17 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	apiuniter "launchpad.net/juju-core/state/api/uniter"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker/uniter"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api"
+	"github.com/wallyworld/core/state/api/params"
+	apiuniter "github.com/wallyworld/core/state/api/uniter"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/worker/uniter"
+	"github.com/wallyworld/core/worker/uniter/jujuc"
 )
 
 var noProxies = osenv.ProxySettings{}

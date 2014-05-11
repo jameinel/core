@@ -11,9 +11,9 @@ import (
 	"github.com/juju/testing"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju/osenv"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/juju/osenv"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 var logger = loggo.GetLogger("juju.test")

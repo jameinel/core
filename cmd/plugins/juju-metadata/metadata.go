@@ -9,9 +9,9 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju"
-	_ "launchpad.net/juju-core/provider/all"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/juju"
+	_ "github.com/wallyworld/core/provider/all"
 )
 
 var logger = loggo.GetLogger("juju.plugins.metadata")

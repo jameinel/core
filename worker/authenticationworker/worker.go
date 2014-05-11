@@ -9,13 +9,13 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state/api/keyupdater"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/utils/ssh"
-	"launchpad.net/juju-core/worker"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/state/api/keyupdater"
+	"github.com/wallyworld/core/state/api/watcher"
+	"github.com/wallyworld/core/utils/set"
+	"github.com/wallyworld/core/utils/ssh"
+	"github.com/wallyworld/core/worker"
 )
 
 // The user name used to ssh into Juju nodes.

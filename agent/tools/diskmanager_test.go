@@ -11,11 +11,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	agenttools "launchpad.net/juju-core/agent/tools"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	agenttools "github.com/wallyworld/core/agent/tools"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/version"
 )
 
 var _ = gc.Suite(&DiskManagerSuite{})

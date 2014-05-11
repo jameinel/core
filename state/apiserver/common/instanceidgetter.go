@@ -4,9 +4,9 @@
 package common
 
 import (
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
 )
 
 // InstanceIdGetter implements a common InstanceId method for use by

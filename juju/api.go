@@ -8,16 +8,16 @@ import (
 	"io"
 	"time"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/keymanager"
-	"launchpad.net/juju-core/state/api/usermanager"
-	"launchpad.net/juju-core/utils/parallel"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/configstore"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state/api"
+	"github.com/wallyworld/core/state/api/keymanager"
+	"github.com/wallyworld/core/state/api/usermanager"
+	"github.com/wallyworld/core/utils/parallel"
 )
 
 // The following are variables so that they can be

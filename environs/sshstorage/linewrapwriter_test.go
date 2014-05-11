@@ -10,7 +10,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/sshstorage"
+	"github.com/wallyworld/core/environs/sshstorage"
 )
 
 type wrapWriterSuite struct{}

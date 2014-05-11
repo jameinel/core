@@ -8,9 +8,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state/api/keymanager"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/state/api/keymanager"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 func ensureSystemSSHKey(context Context) error {

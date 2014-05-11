@@ -9,7 +9,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/tools"
+	"github.com/wallyworld/core/environs/tools"
 )
 
 var _ = gc.Suite(&marshalSuite{})

@@ -14,12 +14,12 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/replicaset"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/utils/voyeur"
-	"launchpad.net/juju-core/worker"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/replicaset"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/utils/voyeur"
+	"github.com/wallyworld/core/worker"
 )
 
 // This file holds helper functions for mocking pieces of State and replicaset

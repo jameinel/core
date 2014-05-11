@@ -7,16 +7,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/errors"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
-	"launchpad.net/juju-core/state/apiserver/upgrader"
-	statetesting "launchpad.net/juju-core/state/testing"
-	"launchpad.net/juju-core/version"
+	envtesting "github.com/wallyworld/core/environs/testing"
+	"github.com/wallyworld/core/errors"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	apiservertesting "github.com/wallyworld/core/state/apiserver/testing"
+	"github.com/wallyworld/core/state/apiserver/upgrader"
+	statetesting "github.com/wallyworld/core/state/testing"
+	"github.com/wallyworld/core/version"
 )
 
 type upgraderSuite struct {

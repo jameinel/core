@@ -6,12 +6,12 @@ package environment_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/apiserver/common"
-	commontesting "launchpad.net/juju-core/state/apiserver/common/testing"
-	"launchpad.net/juju-core/state/apiserver/environment"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/apiserver/common"
+	commontesting "github.com/wallyworld/core/state/apiserver/common/testing"
+	"github.com/wallyworld/core/state/apiserver/environment"
+	apiservertesting "github.com/wallyworld/core/state/apiserver/testing"
 )
 
 type environmentSuite struct {

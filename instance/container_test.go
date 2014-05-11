@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
+	"github.com/wallyworld/core/instance"
 )
 
 func TestPackage(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/tailer"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/tailer"
 )
 
 func Test(t *stdtesting.T) {

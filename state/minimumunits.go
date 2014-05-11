@@ -9,7 +9,7 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	coreerrors "launchpad.net/juju-core/errors"
+	coreerrors "github.com/wallyworld/core/errors"
 )
 
 // minUnitsDoc keeps track of relevant changes on the service's MinUnits field

@@ -17,7 +17,7 @@ import (
 
 	"labix.org/v2/mgo/bson"
 
-	"launchpad.net/juju-core/juju/arch"
+	"github.com/wallyworld/core/juju/arch"
 )
 
 // The presence and format of this constant is very important.

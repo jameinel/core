@@ -15,8 +15,8 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/errors"
 )
 
 type storageSuite struct {

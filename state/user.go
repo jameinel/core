@@ -8,9 +8,9 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/utils"
 )
 
 var validUser = regexp.MustCompile("^[a-zA-Z][a-zA-Z0-9]*$")

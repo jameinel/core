@@ -12,10 +12,10 @@ import (
 	"launchpad.net/gnuflag"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/juju/osenv"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/cmd/envcmd"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/juju/osenv"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 type EnvironmentCommandSuite struct {

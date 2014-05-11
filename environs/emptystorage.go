@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"io"
 
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/utils"
 )
 
 // EmptyStorage holds a StorageReader object that contains no files and

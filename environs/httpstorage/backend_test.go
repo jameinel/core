@@ -19,11 +19,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/httpstorage"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs/filestorage"
+	"github.com/wallyworld/core/environs/httpstorage"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils"
 )
 
 const testAuthkey = "jabberwocky"

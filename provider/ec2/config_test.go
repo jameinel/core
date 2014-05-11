@@ -14,11 +14,11 @@ import (
 	"launchpad.net/goamz/aws"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 // Use local suite since this file lives in the ec2 package

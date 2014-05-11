@@ -11,15 +11,15 @@ import (
 	"github.com/joyent/gosign/auth"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/configstore"
+	"github.com/wallyworld/core/environs/imagemetadata"
+	"github.com/wallyworld/core/environs/instances"
+	"github.com/wallyworld/core/environs/jujutest"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/testing"
 )
 
 var Provider environs.EnvironProvider = GetProviderInstance()

@@ -9,7 +9,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/utils/set"
+	"github.com/wallyworld/core/utils/set"
 )
 
 func Test(t *testing.T) {

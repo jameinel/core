@@ -6,14 +6,14 @@ package agent
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
 )
 
 // InitializeState should be called on the bootstrap machine's agent

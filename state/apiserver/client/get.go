@@ -4,9 +4,9 @@
 package client
 
 import (
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/state/api/params"
 )
 
 // ServiceGet returns the configuration for a service.

@@ -6,7 +6,7 @@ package main
 import (
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
+	"github.com/wallyworld/core/cmd"
 )
 
 var authKeysDoc = `

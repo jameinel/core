@@ -7,7 +7,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/names"
+	"github.com/wallyworld/core/names"
 )
 
 type userSuite struct{}

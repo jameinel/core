@@ -12,11 +12,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/provider/dummy"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 type CmdSuite struct {

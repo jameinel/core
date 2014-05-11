@@ -6,9 +6,9 @@ package instances
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/juju/arch"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/imagemetadata"
+	"github.com/wallyworld/core/juju/arch"
 )
 
 // InstanceConstraint constrains the possible instances that may be

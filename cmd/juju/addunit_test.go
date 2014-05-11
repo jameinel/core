@@ -6,11 +6,11 @@ package main
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/instance"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/instance"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/testing"
 )
 
 type AddUnitSuite struct {

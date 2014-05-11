@@ -4,10 +4,10 @@
 package common
 
 import (
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state/api/base"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/state/api/base"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/api/watcher"
 )
 
 // EnvironWatcher provides common client-side API functions

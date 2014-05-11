@@ -8,12 +8,12 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	"github.com/wallyworld/core/state/watcher"
+	"github.com/wallyworld/core/version"
 )
 
 var logger = loggo.GetLogger("juju.state.apiserver.upgrader")

@@ -10,9 +10,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/version"
 )
 
 type formatSuite struct {

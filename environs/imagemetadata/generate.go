@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/version/ubuntu"
 )
 
 // MergeAndWriteMetadata reads the existing metadata from storage (if any),

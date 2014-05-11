@@ -10,11 +10,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	_ "launchpad.net/juju-core/provider/local"
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/environs/config"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/provider/dummy"
+	_ "github.com/wallyworld/core/provider/local"
+	"github.com/wallyworld/core/testing"
 )
 
 type GetEnvironmentSuite struct {

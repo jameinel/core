@@ -10,10 +10,10 @@ import (
 
 	"launchpad.net/gwacl"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
-	"launchpad.net/juju-core/worker/firewaller"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/provider/common"
+	"github.com/wallyworld/core/worker/firewaller"
 )
 
 const AZURE_DOMAIN_NAME = "cloudapp.net"

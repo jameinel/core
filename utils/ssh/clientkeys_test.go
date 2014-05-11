@@ -10,10 +10,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 type ClientKeysSuite struct {

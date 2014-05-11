@@ -20,11 +20,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/storage"
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/environs/storage"
+	coreerrors "github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 type storageSuite struct {

@@ -13,8 +13,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/shell"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/shell"
 )
 
 type scriptSuite struct {

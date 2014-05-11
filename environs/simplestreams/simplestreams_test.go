@@ -11,9 +11,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	sstesting "launchpad.net/juju-core/environs/simplestreams/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs/simplestreams"
+	sstesting "github.com/wallyworld/core/environs/simplestreams/testing"
+	"github.com/wallyworld/core/utils"
 )
 
 func Test(t *testing.T) {

@@ -6,9 +6,9 @@ package common
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/watcher"
 )
 
 // EnvironMachinesWatcher implements a common WatchEnvironMachines

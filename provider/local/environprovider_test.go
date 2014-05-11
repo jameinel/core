@@ -11,16 +11,16 @@ import (
 	"github.com/juju/testing"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/container/kvm"
-	lxctesting "launchpad.net/juju-core/container/lxc/testing"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/provider"
-	"launchpad.net/juju-core/provider/local"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/container/kvm"
+	lxctesting "github.com/wallyworld/core/container/lxc/testing"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/provider"
+	"github.com/wallyworld/core/provider/local"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils"
 )
 
 type baseProviderSuite struct {

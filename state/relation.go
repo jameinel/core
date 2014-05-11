@@ -14,9 +14,9 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/names"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/names"
 )
 
 // relationKey returns a string describing the relation defined by

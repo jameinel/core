@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"os"
 
-	"launchpad.net/juju-core/charm"
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
-	uhook "launchpad.net/juju-core/worker/uniter/hook"
+	"github.com/wallyworld/core/charm"
+	coreerrors "github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/utils"
+	uhook "github.com/wallyworld/core/worker/uniter/hook"
 )
 
 // Op enumerates the operations the uniter can perform.

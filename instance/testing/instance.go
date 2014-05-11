@@ -6,7 +6,7 @@ package testing
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
+	"github.com/wallyworld/core/instance"
 )
 
 // MatchInstances uses DeepEquals to check the instances returned.  The lists

@@ -5,10 +5,10 @@ package state_test
 
 import (
 	gc "launchpad.net/gocheck"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/state"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 type ConfigValidatorSuite struct {

@@ -18,8 +18,8 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils/tailer"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/utils/tailer"
 )
 
 // debugLogHandler takes requests to watch the debug log.

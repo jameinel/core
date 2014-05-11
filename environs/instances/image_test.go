@@ -8,12 +8,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/juju/arch"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/imagemetadata"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/juju/arch"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils"
 )
 
 type imageSuite struct {

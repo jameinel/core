@@ -11,11 +11,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	charmtesting "launchpad.net/juju-core/charm/testing"
-	env_config "launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/charm"
+	charmtesting "github.com/wallyworld/core/charm/testing"
+	env_config "github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type StoreSuite struct {

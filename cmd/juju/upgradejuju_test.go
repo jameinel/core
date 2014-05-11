@@ -14,15 +14,15 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/sync"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/juju/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/filestorage"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/environs/sync"
+	envtesting "github.com/wallyworld/core/environs/testing"
+	envtools "github.com/wallyworld/core/environs/tools"
+	"github.com/wallyworld/core/juju/testing"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/version"
 )
 
 type UpgradeJujuSuite struct {

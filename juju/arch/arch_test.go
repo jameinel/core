@@ -7,8 +7,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/arch"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/juju/arch"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type archSuite struct {

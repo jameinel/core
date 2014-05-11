@@ -11,7 +11,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/utils/parallel"
+	"github.com/wallyworld/core/utils/parallel"
 )
 
 func Test(t *stdtesting.T) {

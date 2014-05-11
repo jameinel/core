@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/environs/storage"
+	"github.com/wallyworld/core/cert"
+	"github.com/wallyworld/core/environs/storage"
 )
 
 // storageBackend provides HTTP access to a storage object.

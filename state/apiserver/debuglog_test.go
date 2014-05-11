@@ -19,9 +19,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils"
 )
 
 type debugLogSuite struct {

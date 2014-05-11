@@ -18,22 +18,22 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/sync"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	envtools "launchpad.net/juju-core/environs/tools"
-	ttesting "launchpad.net/juju-core/environs/tools/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/configstore"
+	"github.com/wallyworld/core/environs/filestorage"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/environs/sync"
+	envtesting "github.com/wallyworld/core/environs/testing"
+	envtools "github.com/wallyworld/core/environs/tools"
+	ttesting "github.com/wallyworld/core/environs/tools/testing"
+	"github.com/wallyworld/core/provider/dummy"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
 )
 
 func TestPackage(t *testing.T) {
@@ -313,7 +313,7 @@ func (s *uploadSuite) TestUploadAndForceVersion(c *gc.C) {
 // file in this case).
 func (s *uploadSuite) TestUploadBadBuild(c *gc.C) {
 	gopath := c.MkDir()
-	join := append([]string{gopath, "src"}, strings.Split("launchpad.net/juju-core/cmd/broken", "/")...)
+	join := append([]string{gopath, "src"}, strings.Split("github.com/wallyworld/core/cmd/broken", "/")...)
 	pkgdir := filepath.Join(join...)
 	err := os.MkdirAll(pkgdir, 0777)
 	c.Assert(err, gc.IsNil)

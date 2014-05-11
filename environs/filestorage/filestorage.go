@@ -12,9 +12,9 @@ import (
 	"sort"
 	"strings"
 
-	"launchpad.net/juju-core/environs/storage"
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs/storage"
+	coreerrors "github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/utils"
 )
 
 // fileStorageReader implements StorageReader backed

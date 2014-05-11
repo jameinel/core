@@ -10,10 +10,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent/mongo"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/agent/mongo"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils"
 )
 
 type prereqsSuite struct {

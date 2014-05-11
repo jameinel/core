@@ -17,13 +17,13 @@ import (
 	"strings"
 	"time"
 
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/errors"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils/set"
+	"github.com/wallyworld/core/version"
+	"github.com/wallyworld/core/version/ubuntu"
 )
 
 func init() {

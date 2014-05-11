@@ -11,10 +11,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/cert"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 const (

@@ -18,9 +18,9 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/environs/storage"
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs/storage"
+	coreerrors "github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/utils"
 )
 
 var logger = loggo.GetLogger("juju.environs.httpstorage")

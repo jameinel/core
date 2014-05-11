@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/manual"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/manual"
+	"github.com/wallyworld/core/utils"
 )
 
 type manualProvider struct{}

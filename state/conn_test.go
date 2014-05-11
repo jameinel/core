@@ -9,12 +9,12 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 // TestPackage integrates the tests into gotest.

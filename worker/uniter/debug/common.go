@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"launchpad.net/juju-core/names"
+	"github.com/wallyworld/core/names"
 )
 
 const defaultFlockDir = "/tmp"

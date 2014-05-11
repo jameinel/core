@@ -10,9 +10,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/utils/syslog"
-	syslogtesting "launchpad.net/juju-core/utils/syslog/testing"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/utils/syslog"
+	syslogtesting "github.com/wallyworld/core/utils/syslog/testing"
 )
 
 func Test(t *stdtesting.T) {

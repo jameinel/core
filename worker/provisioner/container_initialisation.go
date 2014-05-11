@@ -7,17 +7,17 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/container/kvm"
-	"launchpad.net/juju-core/container/lxc"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	apiprovisioner "launchpad.net/juju-core/state/api/provisioner"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/container/kvm"
+	"github.com/wallyworld/core/container/lxc"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	apiprovisioner "github.com/wallyworld/core/state/api/provisioner"
+	"github.com/wallyworld/core/state/api/watcher"
+	"github.com/wallyworld/core/worker"
 )
 
 // ContainerSetup is a StringsWatchHandler that is notified when containers

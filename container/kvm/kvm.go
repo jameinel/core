@@ -10,14 +10,14 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/environs/cloudinit"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/version"
 )
 
 var (

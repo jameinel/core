@@ -6,13 +6,13 @@ package logger_test
 import (
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/apiserver/logger"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
-	statetesting "launchpad.net/juju-core/state/testing"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	"github.com/wallyworld/core/state/apiserver/logger"
+	apiservertesting "github.com/wallyworld/core/state/apiserver/testing"
+	statetesting "github.com/wallyworld/core/state/testing"
 )
 
 type loggerSuite struct {

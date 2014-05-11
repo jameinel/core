@@ -6,8 +6,8 @@ package main
 import (
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/testing"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/testing"
 )
 
 type RemoveUserSuite struct {

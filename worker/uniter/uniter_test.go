@@ -22,24 +22,24 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/agent/tools"
-	corecharm "launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	apiuniter "launchpad.net/juju-core/state/api/uniter"
-	coretesting "launchpad.net/juju-core/testing"
-	ft "launchpad.net/juju-core/testing/filetesting"
-	"launchpad.net/juju-core/utils"
-	utilexec "launchpad.net/juju-core/utils/exec"
-	"launchpad.net/juju-core/utils/fslock"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/uniter"
-	"launchpad.net/juju-core/worker/uniter/charm"
+	"github.com/wallyworld/core/agent/tools"
+	corecharm "github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api"
+	"github.com/wallyworld/core/state/api/params"
+	apiuniter "github.com/wallyworld/core/state/api/uniter"
+	coretesting "github.com/wallyworld/core/testing"
+	ft "github.com/wallyworld/core/testing/filetesting"
+	"github.com/wallyworld/core/utils"
+	utilexec "github.com/wallyworld/core/utils/exec"
+	"github.com/wallyworld/core/utils/fslock"
+	"github.com/wallyworld/core/worker"
+	"github.com/wallyworld/core/worker/uniter"
+	"github.com/wallyworld/core/worker/uniter/charm"
 )
 
 // worstCase is used for timeouts when timing out
@@ -73,7 +73,7 @@ func (s *UniterSuite) SetUpSuite(c *gc.C) {
 	toolsDir := tools.ToolsDir(s.dataDir, "unit-u-0")
 	err := os.MkdirAll(toolsDir, 0755)
 	c.Assert(err, gc.IsNil)
-	cmd := exec.Command("go", "build", "launchpad.net/juju-core/cmd/jujud")
+	cmd := exec.Command("go", "build", "github.com/wallyworld/core/cmd/jujud")
 	cmd.Dir = toolsDir
 	out, err := cmd.CombinedOutput()
 	c.Logf(string(out))

@@ -14,11 +14,11 @@ import (
 	"launchpad.net/goamz/aws"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/simplestreams"
-	sstesting "launchpad.net/juju-core/environs/simplestreams/testing"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs/imagemetadata"
+	"github.com/wallyworld/core/environs/jujutest"
+	"github.com/wallyworld/core/environs/simplestreams"
+	sstesting "github.com/wallyworld/core/environs/simplestreams/testing"
+	"github.com/wallyworld/core/utils"
 )
 
 var live = flag.Bool("live", false, "Include live simplestreams tests")

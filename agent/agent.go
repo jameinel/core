@@ -18,12 +18,12 @@ import (
 	"github.com/errgo/errgo"
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
 )
 
 var logger = loggo.GetLogger("juju.agent")

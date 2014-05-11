@@ -8,13 +8,13 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/client"
-	coretools "launchpad.net/juju-core/tools"
+	"github.com/wallyworld/core/environs"
+	envtools "github.com/wallyworld/core/environs/tools"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/client"
+	coretools "github.com/wallyworld/core/tools"
 )
 
 type machineConfigSuite struct {

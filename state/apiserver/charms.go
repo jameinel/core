@@ -23,10 +23,10 @@ import (
 
 	"github.com/errgo/errgo"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/state/api/params"
-	ziputil "launchpad.net/juju-core/utils/zip"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/state/api/params"
+	ziputil "github.com/wallyworld/core/utils/zip"
 )
 
 // charmsHandler handles charm upload through HTTPS in the API server.

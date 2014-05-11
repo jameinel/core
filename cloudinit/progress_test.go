@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cloudinit"
+	"github.com/wallyworld/core/cloudinit"
 )
 
 type progressSuite struct{}

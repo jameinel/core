@@ -18,15 +18,15 @@ import (
 	"code.google.com/p/go.net/websocket"
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/network"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/network"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
 )
 
 // Client represents the client-accessible part of the state.

@@ -4,7 +4,7 @@
 package uniter
 
 import (
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/wallyworld/core/juju/osenv"
 )
 
 func SetUniterObserver(u *Uniter, observer UniterExecutionObserver) {

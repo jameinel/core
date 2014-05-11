@@ -4,10 +4,10 @@
 package rsyslog
 
 import (
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
+	"github.com/wallyworld/core/cert"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
 )
 
 // RsyslogAPI implements the API used by the rsyslog worker.

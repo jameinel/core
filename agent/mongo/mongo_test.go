@@ -18,12 +18,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/upstart"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/upstart"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
 )
 
 func Test(t *stdtesting.T) { gc.TestingT(t) }

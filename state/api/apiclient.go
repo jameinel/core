@@ -13,13 +13,13 @@ import (
 	"code.google.com/p/go.net/websocket"
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/rpc/jsoncodec"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/parallel"
+	"github.com/wallyworld/core/cert"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/rpc"
+	"github.com/wallyworld/core/rpc/jsoncodec"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/parallel"
 )
 
 var logger = loggo.GetLogger("juju.state.api")

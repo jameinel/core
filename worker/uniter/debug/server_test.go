@@ -15,7 +15,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type DebugHooksServerSuite struct {

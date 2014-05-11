@@ -14,7 +14,7 @@ import (
 	"regexp"
 	"runtime"
 
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/wallyworld/core/juju/osenv"
 )
 
 // UserHomeDir returns the home directory for the specified user, or the

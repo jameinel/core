@@ -13,8 +13,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/utils"
 )
 
 type fileSuite struct {

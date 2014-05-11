@@ -9,11 +9,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/bzr"
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/bzr"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 // Sadly, this is a very slow test suite, heavily dominated by calls to bzr.

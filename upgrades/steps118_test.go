@@ -6,8 +6,8 @@ package upgrades_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/upgrades"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/upgrades"
 )
 
 type steps118Suite struct {

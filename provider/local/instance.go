@@ -6,9 +6,9 @@ package local
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/provider/common"
 )
 
 type localInstance struct {

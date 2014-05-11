@@ -14,8 +14,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/parallel"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils/parallel"
 )
 
 type result string

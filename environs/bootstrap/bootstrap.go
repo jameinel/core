@@ -8,10 +8,10 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/environs"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/ssh"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/environs"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils/ssh"
+	"github.com/wallyworld/core/version"
 )
 
 var logger = loggo.GetLogger("juju.environs.bootstrap")

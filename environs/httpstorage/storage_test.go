@@ -14,10 +14,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/httpstorage"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/environs/httpstorage"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/errors"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 type storageSuite struct{}

@@ -7,16 +7,16 @@ import (
 	"fmt"
 	"os"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/sync"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/juju/arch"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/sync"
+	envtools "github.com/wallyworld/core/environs/tools"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/juju/arch"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils/set"
+	"github.com/wallyworld/core/version"
+	"github.com/wallyworld/core/version/ubuntu"
 )
 
 const noToolsMessage = `Juju cannot bootstrap because no tools are available for your environment.

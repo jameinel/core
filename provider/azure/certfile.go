@@ -7,7 +7,7 @@ import (
 	"os"
 	"path"
 
-	"launchpad.net/juju-core/errors"
+	"github.com/wallyworld/core/errors"
 )
 
 // tempCertFile is a temporary file containing an x509 certificate.

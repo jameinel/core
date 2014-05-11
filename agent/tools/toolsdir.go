@@ -17,8 +17,8 @@ import (
 
 	"github.com/errgo/errgo"
 
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/version"
 )
 
 const toolsFile = "downloaded-tools.txt"

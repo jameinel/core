@@ -8,13 +8,13 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/juju/arch"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/juju/arch"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/version"
+	"github.com/wallyworld/core/version/ubuntu"
 )
 
 var logger = loggo.GetLogger("juju.environs.tools")

@@ -16,9 +16,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	ft "launchpad.net/juju-core/testing/filetesting"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/zip"
+	ft "github.com/wallyworld/core/testing/filetesting"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/zip"
 )
 
 type ZipSuite struct {

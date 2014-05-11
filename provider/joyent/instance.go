@@ -10,8 +10,8 @@ import (
 
 	"github.com/joyent/gosdc/cloudapi"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/common"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/provider/common"
 )
 
 type joyentInstance struct {

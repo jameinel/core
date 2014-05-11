@@ -6,12 +6,12 @@ package params
 import (
 	"time"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/network"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/exec"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/network"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils/exec"
+	"github.com/wallyworld/core/version"
 )
 
 // MachineContainersParams holds the arguments for making a SetSupportedContainers

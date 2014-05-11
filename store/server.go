@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"launchpad.net/juju-core/charm"
+	"github.com/wallyworld/core/charm"
 )
 
 const DefaultSeries = "precise"

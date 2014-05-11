@@ -10,16 +10,16 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	apiprovisioner "launchpad.net/juju-core/state/api/provisioner"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/provisioner"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	apiprovisioner "github.com/wallyworld/core/state/api/provisioner"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
+	"github.com/wallyworld/core/worker"
+	"github.com/wallyworld/core/worker/provisioner"
 )
 
 type ContainerSetupSuite struct {

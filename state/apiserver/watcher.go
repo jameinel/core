@@ -4,10 +4,10 @@
 package apiserver
 
 import (
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/multiwatcher"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	"github.com/wallyworld/core/state/multiwatcher"
 )
 
 type srvClientAllWatcher struct {

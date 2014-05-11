@@ -11,10 +11,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	corecharm "launchpad.net/juju-core/charm"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/worker/uniter/charm"
+	corecharm "github.com/wallyworld/core/charm"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils/set"
+	"github.com/wallyworld/core/worker/uniter/charm"
 )
 
 func TestPackage(t *stdtesting.T) {

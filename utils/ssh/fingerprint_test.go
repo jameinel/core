@@ -6,9 +6,9 @@ package ssh_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/ssh"
-	sshtesting "launchpad.net/juju-core/utils/ssh/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/ssh"
+	sshtesting "github.com/wallyworld/core/utils/ssh/testing"
 )
 
 type FingerprintSuite struct {

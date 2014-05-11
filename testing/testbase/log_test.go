@@ -7,7 +7,7 @@ import (
 	"github.com/juju/loggo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 var logger = loggo.GetLogger("juju.logsuite")

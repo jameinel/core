@@ -14,12 +14,12 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/utils/exec"
-	"launchpad.net/juju-core/worker/uniter/jujuc"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/utils/exec"
+	"github.com/wallyworld/core/worker/uniter/jujuc"
 
 	// Import the providers.
-	_ "launchpad.net/juju-core/provider/all"
+	_ "github.com/wallyworld/core/provider/all"
 )
 
 var jujudDoc = `

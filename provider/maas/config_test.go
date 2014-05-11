@@ -6,10 +6,10 @@ package maas
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils"
 )
 
 type configSuite struct {

@@ -9,9 +9,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
-	jujutesting "launchpad.net/juju-core/juju/testing"
+	jujutesting "github.com/wallyworld/core/juju/testing"
 
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/testing"
 )
 
 // All of the functionality of the AddUser api call is contained elsewhere

@@ -4,9 +4,9 @@
 package common
 
 import (
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/watcher"
 )
 
 // UnitsWatcher implements a common WatchUnits method for use by

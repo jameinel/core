@@ -6,13 +6,13 @@ package machine_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/apiserver/machine"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
-	statetesting "launchpad.net/juju-core/state/testing"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	"github.com/wallyworld/core/state/apiserver/machine"
+	apiservertesting "github.com/wallyworld/core/state/apiserver/testing"
+	statetesting "github.com/wallyworld/core/state/testing"
 )
 
 type machinerSuite struct {

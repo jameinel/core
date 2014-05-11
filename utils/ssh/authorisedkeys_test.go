@@ -10,10 +10,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/ssh"
-	sshtesting "launchpad.net/juju-core/utils/ssh/testing"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/ssh"
+	sshtesting "github.com/wallyworld/core/utils/ssh/testing"
 )
 
 func Test(t *stdtesting.T) {

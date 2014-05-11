@@ -12,7 +12,7 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/errors"
+	"github.com/wallyworld/core/errors"
 )
 
 // See: http://docs.mongodb.org/manual/faq/developers/#faq-dollar-sign-escaping

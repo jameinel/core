@@ -10,15 +10,15 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/provider"
-	"launchpad.net/juju-core/state/api/environment"
-	"launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/exec"
-	"launchpad.net/juju-core/worker"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/provider"
+	"github.com/wallyworld/core/state/api/environment"
+	"github.com/wallyworld/core/state/api/watcher"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/exec"
+	"github.com/wallyworld/core/worker"
 )
 
 var (

@@ -6,8 +6,8 @@ package local
 import (
 	"strconv"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/version"
 )
 
 // releaseVersion is a function that returns a string representing the

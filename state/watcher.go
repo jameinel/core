@@ -14,13 +14,13 @@ import (
 	"labix.org/v2/mgo/bson"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/watcher"
+	"github.com/wallyworld/core/utils/set"
 )
 
 var watchLogger = loggo.GetLogger("juju.state.watch")

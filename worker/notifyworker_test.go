@@ -12,11 +12,11 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	apiWatcher "launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/state/watcher"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/worker"
+	apiWatcher "github.com/wallyworld/core/state/api/watcher"
+	"github.com/wallyworld/core/state/watcher"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/worker"
 )
 
 type notifyWorkerSuite struct {

@@ -12,10 +12,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 
 	gc "launchpad.net/gocheck"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/singular"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/worker"
+	"github.com/wallyworld/core/worker/singular"
 )
 
 var _ = gc.Suite(&singularSuite{})

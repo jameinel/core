@@ -6,7 +6,7 @@ package rsyslog_test
 import (
 	stdtesting "testing"
 
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/testing"
 )
 
 func TestAll(t *stdtesting.T) {

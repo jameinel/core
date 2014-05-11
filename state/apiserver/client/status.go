@@ -9,15 +9,15 @@ import (
 	"regexp"
 	"strings"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils/set"
 )
 
 // FullStatus gives the information needed for juju status over the api

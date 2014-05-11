@@ -15,9 +15,9 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/tomb"
 
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/fslock"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/fslock"
 )
 
 type fslockSuite struct {

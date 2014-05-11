@@ -9,11 +9,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
 )
 
 // TestPackage integrates the tests into gotest.

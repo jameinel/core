@@ -14,13 +14,13 @@ import (
 	"launchpad.net/goose/nova"
 	"launchpad.net/goose/swift"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/instance"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/instances"
+	"github.com/wallyworld/core/environs/jujutest"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/instance"
 )
 
 // This provides the content for code accessing test:///... URLs. This allows

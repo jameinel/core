@@ -9,8 +9,8 @@ import (
 	"strconv"
 
 	"launchpad.net/goyaml"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/version"
 )
 
 var format_1_18 = formatter_1_18{}

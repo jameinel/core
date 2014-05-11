@@ -7,9 +7,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/uniter"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/api/uniter"
 )
 
 type relationSuite struct {

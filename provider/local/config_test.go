@@ -8,12 +8,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/provider"
-	"launchpad.net/juju-core/provider/local"
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/provider"
+	"github.com/wallyworld/core/provider/local"
+	"github.com/wallyworld/core/testing"
 )
 
 type configSuite struct {

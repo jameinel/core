@@ -13,17 +13,17 @@ import (
 	"github.com/juju/loggo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/configstore"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/environs/tools"
-	ttesting "launchpad.net/juju-core/environs/tools/testing"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/provider/dummy"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/configstore"
+	envtesting "github.com/wallyworld/core/environs/testing"
+	"github.com/wallyworld/core/environs/tools"
+	ttesting "github.com/wallyworld/core/environs/tools/testing"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/provider/dummy"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/version"
 )
 
 type ToolsMetadataSuite struct {

@@ -8,8 +8,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type instanceTypeSuite struct {

@@ -11,7 +11,7 @@ import (
 
 	"labix.org/v2/mgo"
 
-	"launchpad.net/juju-core/upstart"
+	"github.com/wallyworld/core/upstart"
 )
 
 var (

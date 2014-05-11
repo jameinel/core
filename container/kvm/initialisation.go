@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/utils"
 )
 
 var requiredPackages = []string{

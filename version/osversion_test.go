@@ -10,8 +10,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/version"
 )
 
 type readSeriesSuite struct {

@@ -14,9 +14,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/instance"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/instance"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 var _ = gc.Suite(&SCPSuite{})

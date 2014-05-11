@@ -9,10 +9,10 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/cmd/envcmd"
+	"github.com/wallyworld/core/juju"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 var listKeysDoc = `

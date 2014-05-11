@@ -6,9 +6,9 @@ package main
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/charm"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/testing"
 )
 
 type ExposeSuite struct {

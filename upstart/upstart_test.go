@@ -13,9 +13,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/upstart"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/upstart"
+	"github.com/wallyworld/core/utils"
 )
 
 func Test(t *testing.T) { gc.TestingT(t) }

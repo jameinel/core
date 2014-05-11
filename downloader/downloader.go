@@ -13,7 +13,7 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/utils"
 )
 
 var logger = loggo.GetLogger("juju.downloader")

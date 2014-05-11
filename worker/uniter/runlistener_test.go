@@ -9,9 +9,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/exec"
-	"launchpad.net/juju-core/worker/uniter"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/exec"
+	"github.com/wallyworld/core/worker/uniter"
 )
 
 type ListenerSuite struct {

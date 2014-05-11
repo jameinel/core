@@ -18,9 +18,9 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/set"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils/set"
 )
 
 type BundleSuite struct {

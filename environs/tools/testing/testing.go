@@ -17,15 +17,15 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/environs/tools"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/wallyworld/core/environs/filestorage"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/environs/tools"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/set"
+	"github.com/wallyworld/core/version"
+	"github.com/wallyworld/core/version/ubuntu"
 )
 
 // MakeTools creates some fake tools with the given version strings.

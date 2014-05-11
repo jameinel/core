@@ -11,9 +11,9 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/environs"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/cmd/envcmd"
+	"github.com/wallyworld/core/environs"
 )
 
 type SwitchCommand struct {

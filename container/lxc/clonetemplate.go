@@ -13,13 +13,13 @@ import (
 
 	"launchpad.net/golxc"
 
-	coreCloudinit "launchpad.net/juju-core/cloudinit"
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/fslock"
-	"launchpad.net/juju-core/utils/tailer"
+	coreCloudinit "github.com/wallyworld/core/cloudinit"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/environs/cloudinit"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/fslock"
+	"github.com/wallyworld/core/utils/tailer"
 )
 
 const (

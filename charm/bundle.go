@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"launchpad.net/juju-core/utils/set"
-	ziputil "launchpad.net/juju-core/utils/zip"
+	"github.com/wallyworld/core/utils/set"
+	ziputil "github.com/wallyworld/core/utils/zip"
 )
 
 // The Bundle type encapsulates access to data and operations

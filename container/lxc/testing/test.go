@@ -6,10 +6,10 @@ package testing
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/container/lxc"
-	"launchpad.net/juju-core/container/lxc/mock"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/container/lxc"
+	"github.com/wallyworld/core/container/lxc/mock"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 // TestSuite replaces the lxc factory that the broker uses with a mock

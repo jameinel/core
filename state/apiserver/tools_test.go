@@ -11,13 +11,13 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/tools"
-	ttesting "launchpad.net/juju-core/environs/tools/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/environs/tools"
+	ttesting "github.com/wallyworld/core/environs/tools/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
 	"path/filepath"
 )
 

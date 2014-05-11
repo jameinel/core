@@ -10,12 +10,12 @@ import (
 	"launchpad.net/goamz/aws"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/tools"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/environs/filestorage"
+	"github.com/wallyworld/core/environs/tools"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/version"
 )
 
 type ValidateToolsMetadataSuite struct {

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"path"
 
-	"launchpad.net/juju-core/utils/exec"
+	"github.com/wallyworld/core/utils/exec"
 )
 
 var ubuntuHome = "/home/ubuntu"

@@ -4,8 +4,8 @@
 package usermanager
 
 import (
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/wallyworld/core/state/api"
+	"github.com/wallyworld/core/state/api/params"
 )
 
 // TODO(mattyw) 2014-03-07 bug #1288750

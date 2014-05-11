@@ -13,7 +13,7 @@ import (
 
 	"github.com/juju/loggo"
 	"launchpad.net/gnuflag"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/version"
 )
 
 var logger = loggo.GetLogger("juju.cmd")

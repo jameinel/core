@@ -4,12 +4,12 @@
 package keyupdater
 
 import (
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	"github.com/wallyworld/core/state/watcher"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 // KeyUpdater defines the methods on the keyupdater API end point.

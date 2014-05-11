@@ -9,7 +9,7 @@ import (
 	"github.com/juju/testing"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 func Test(t *stdtesting.T) {
@@ -24,6 +24,6 @@ var _ = gc.Suite(&importSuite{})
 
 func (*importSuite) TestDependencies(c *gc.C) {
 	// This test is to ensure we don't bring in dependencies at all.
-	c.Assert(testbase.FindJujuCoreImports(c, "launchpad.net/juju-core/juju/osenv"),
+	c.Assert(testbase.FindJujuCoreImports(c, "github.com/wallyworld/core/juju/osenv"),
 		gc.HasLen, 0)
 }

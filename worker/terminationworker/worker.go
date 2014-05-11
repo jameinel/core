@@ -10,7 +10,7 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/worker"
+	"github.com/wallyworld/core/worker"
 )
 
 // TerminationSignal is the signal that

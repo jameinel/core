@@ -6,7 +6,7 @@ package cmd
 import (
 	"regexp"
 
-	"launchpad.net/juju-core/names"
+	"github.com/wallyworld/core/names"
 )
 
 const (

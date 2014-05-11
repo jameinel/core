@@ -6,7 +6,7 @@ package provisioner_test
 import (
 	stdtesting "testing"
 
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/testing"
 )
 
 func Test(t *stdtesting.T) {

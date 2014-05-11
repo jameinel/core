@@ -10,10 +10,10 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils/exec"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils/exec"
 )
 
 type RunSuite struct {

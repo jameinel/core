@@ -6,10 +6,10 @@ package firewaller
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/api/watcher"
 )
 
 // Unit represents a juju unit as seen by a firewaller worker.

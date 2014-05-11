@@ -12,11 +12,11 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/configstore"
+	"github.com/wallyworld/core/juju"
+	"github.com/wallyworld/core/state/api/params"
 )
 
 var NoEnvironmentError = errors.New("no environment specified")

@@ -11,16 +11,16 @@ import (
 	"launchpad.net/gnuflag"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/agent/mongo"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/worker/peergrouper"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/agent/mongo"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/worker/peergrouper"
 )
 
 type BootstrapCommand struct {

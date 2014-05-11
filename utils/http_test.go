@@ -13,7 +13,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/utils"
 )
 
 type httpSuite struct {

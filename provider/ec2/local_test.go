@@ -18,25 +18,25 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/bootstrap"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/simplestreams"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/arch"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/ec2"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/bootstrap"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/configstore"
+	"github.com/wallyworld/core/environs/imagemetadata"
+	"github.com/wallyworld/core/environs/jujutest"
+	"github.com/wallyworld/core/environs/simplestreams"
+	envtesting "github.com/wallyworld/core/environs/testing"
+	"github.com/wallyworld/core/environs/tools"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju/arch"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/provider/ec2"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/ssh"
+	"github.com/wallyworld/core/version"
 )
 
 type ProviderSuite struct {
@@ -123,7 +123,7 @@ func (t *localLiveSuite) TearDownSuite(c *gc.C) {
 }
 
 func (t *LiveTests) TestStartInstanceOnUnknownPlatform(c *gc.C) {
-	c.Skip("broken under ec2 - see https://bugs.launchpad.net/juju-core/+bug/1233278")
+	c.Skip("broken under ec2 - see https://bugs.github.com/wallyworld/core/+bug/1233278")
 }
 
 // localServer represents a fake EC2 server running within

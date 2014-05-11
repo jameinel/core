@@ -7,14 +7,14 @@ import (
 	stderrors "errors"
 	"sync"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/rpc"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/presence"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/rpc"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	"github.com/wallyworld/core/state/presence"
+	"github.com/wallyworld/core/utils"
 )
 
 func newStateServer(srv *Server, rpcConn *rpc.Conn, reqNotifier *requestNotifier, limiter utils.Limiter) *initialRoot {

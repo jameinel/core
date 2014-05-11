@@ -8,7 +8,7 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 func Test(t *testing.T) { gc.TestingT(t) }
@@ -21,7 +21,7 @@ func (*Dependencies) TestPackageDependencies(c *gc.C) {
 	// This test is to ensure we don't bring in dependencies without thinking.
 	// Looking at the "environs/config", it is just for JujuHome.  This should
 	// really be moved into "juju/osenv".
-	c.Assert(testbase.FindJujuCoreImports(c, "launchpad.net/juju-core/cmd"),
+	c.Assert(testbase.FindJujuCoreImports(c, "github.com/wallyworld/core/cmd"),
 		gc.DeepEquals,
 		[]string{"juju/arch", "juju/osenv", "names", "thirdparty/pbkdf2", "utils", "version"})
 }

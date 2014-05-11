@@ -12,11 +12,11 @@ import (
 	gc "launchpad.net/gocheck"
 )
 
-const jujuPkgPrefix = "launchpad.net/juju-core/"
+const jujuPkgPrefix = "github.com/wallyworld/core/"
 
 // FindJujuCoreImports returns a sorted list of juju-core packages that are
 // imported by the packageName parameter.  The resulting list removes the
-// common prefix "launchpad.net/juju-core/" leaving just the short names.
+// common prefix "github.com/wallyworld/core/" leaving just the short names.
 func FindJujuCoreImports(c *gc.C, packageName string) []string {
 	var result []string
 	allpkgs := make(map[string]bool)

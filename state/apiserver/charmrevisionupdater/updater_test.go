@@ -7,14 +7,14 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/errors"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/apiserver/charmrevisionupdater"
-	"launchpad.net/juju-core/state/apiserver/charmrevisionupdater/testing"
-	"launchpad.net/juju-core/state/apiserver/common"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/errors"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/apiserver/charmrevisionupdater"
+	"github.com/wallyworld/core/state/apiserver/charmrevisionupdater/testing"
+	"github.com/wallyworld/core/state/apiserver/common"
+	apiservertesting "github.com/wallyworld/core/state/apiserver/testing"
 )
 
 type charmVersionSuite struct {

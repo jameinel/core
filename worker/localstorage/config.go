@@ -6,7 +6,7 @@ package localstorage
 import (
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/agent"
+	"github.com/wallyworld/core/agent"
 )
 
 const (

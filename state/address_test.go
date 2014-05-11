@@ -6,8 +6,8 @@ package state_test
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
 )
 
 type AddressSuite struct{}

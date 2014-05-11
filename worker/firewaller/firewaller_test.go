@@ -4,24 +4,24 @@
 package firewaller_test
 
 import (
-	"launchpad.net/juju-core/environs/config"
+	"github.com/wallyworld/core/environs/config"
 	"reflect"
 	stdtesting "testing"
 	"time"
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	apifirewaller "launchpad.net/juju-core/state/api/firewaller"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/firewaller"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/provider/dummy"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api"
+	apifirewaller "github.com/wallyworld/core/state/api/firewaller"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/worker"
+	"github.com/wallyworld/core/worker/firewaller"
 )
 
 func TestPackage(t *stdtesting.T) {

@@ -8,13 +8,13 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/provider/dummy"
-	"launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/configstore"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/provider/dummy"
+	"github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type EmptyStorageSuite struct {

@@ -8,11 +8,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 type UnsetSuite struct {

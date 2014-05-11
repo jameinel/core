@@ -7,13 +7,13 @@ import (
 	"io"
 	"os"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/network"
-	"launchpad.net/juju-core/environs/storage"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/network"
+	"github.com/wallyworld/core/environs/storage"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api"
 )
 
 // A EnvironProvider represents a computing and storage provider.

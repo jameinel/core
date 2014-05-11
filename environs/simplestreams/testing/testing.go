@@ -11,10 +11,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/jujutest"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/wallyworld/core/environs/jujutest"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/version/ubuntu"
 )
 
 var PrivateKeyPassphrase = "12345"

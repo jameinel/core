@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"launchpad.net/juju-core/cmd"
+	"github.com/wallyworld/core/cmd"
 )
 
 func main() {

@@ -8,10 +8,10 @@ import (
 	"os"
 	"path"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/downloader"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/downloader"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/utils"
 )
 
 // BundlesDir is responsible for storing and retrieving charm bundles

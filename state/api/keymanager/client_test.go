@@ -8,14 +8,14 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/keymanager"
-	"launchpad.net/juju-core/state/api/params"
-	keymanagerserver "launchpad.net/juju-core/state/apiserver/keymanager"
-	keymanagertesting "launchpad.net/juju-core/state/apiserver/keymanager/testing"
-	"launchpad.net/juju-core/utils/ssh"
-	sshtesting "launchpad.net/juju-core/utils/ssh/testing"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/keymanager"
+	"github.com/wallyworld/core/state/api/params"
+	keymanagerserver "github.com/wallyworld/core/state/apiserver/keymanager"
+	keymanagertesting "github.com/wallyworld/core/state/apiserver/keymanager/testing"
+	"github.com/wallyworld/core/utils/ssh"
+	sshtesting "github.com/wallyworld/core/utils/ssh/testing"
 )
 
 type keymanagerSuite struct {

@@ -7,11 +7,11 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/watcher"
-	statetesting "launchpad.net/juju-core/state/testing"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/watcher"
+	statetesting "github.com/wallyworld/core/state/testing"
 )
 
 const (

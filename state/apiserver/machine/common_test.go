@@ -5,10 +5,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	apiservertesting "launchpad.net/juju-core/state/apiserver/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	apiservertesting "github.com/wallyworld/core/state/apiserver/testing"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 func Test(t *stdtesting.T) {

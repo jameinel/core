@@ -6,9 +6,9 @@ package main
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/juju"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/cmd/envcmd"
+	"github.com/wallyworld/core/juju"
 )
 
 // DestroyRelationCommand causes an existing service relation to be shut down.

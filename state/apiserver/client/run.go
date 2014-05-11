@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/set"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 // remoteParamsForMachine returns a filled in RemoteExec instance

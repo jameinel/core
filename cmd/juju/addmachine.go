@@ -8,14 +8,14 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/manual"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/cmd/envcmd"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/manual"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state/api/params"
 )
 
 // sshHostPrefix is the prefix for a machine to be "manually provisioned".

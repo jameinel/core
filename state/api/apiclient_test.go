@@ -9,9 +9,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/utils/parallel"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state/api"
+	"github.com/wallyworld/core/utils/parallel"
 )
 
 type apiclientSuite struct {

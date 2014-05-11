@@ -7,8 +7,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/environs/configstore"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 // interfaceSuite defines a set of tests on a ConfigStorage

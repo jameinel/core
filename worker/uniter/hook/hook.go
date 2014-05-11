@@ -7,7 +7,7 @@ package hook
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/charm/hooks"
+	"github.com/wallyworld/core/charm/hooks"
 )
 
 // Info holds details required to execute a hook. Not all fields are

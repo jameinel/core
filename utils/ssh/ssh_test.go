@@ -11,9 +11,9 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 type SSHCommandSuite struct {

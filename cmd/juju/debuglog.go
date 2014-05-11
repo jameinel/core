@@ -10,11 +10,11 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/state/api"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/cmd/envcmd"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/juju"
+	"github.com/wallyworld/core/state/api"
 )
 
 type DebugLogCommand struct {

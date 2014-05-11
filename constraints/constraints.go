@@ -12,8 +12,8 @@ import (
 
 	"github.com/errgo/errgo"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju/arch"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju/arch"
 )
 
 // The following constants list the supported constraint attribute names, as defined

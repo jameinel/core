@@ -11,15 +11,15 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/errors"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	apideployer "launchpad.net/juju-core/state/api/deployer"
-	"launchpad.net/juju-core/state/api/params"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker"
-	"launchpad.net/juju-core/worker/deployer"
+	"github.com/wallyworld/core/errors"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api"
+	apideployer "github.com/wallyworld/core/state/api/deployer"
+	"github.com/wallyworld/core/state/api/params"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/worker"
+	"github.com/wallyworld/core/worker/deployer"
 )
 
 func TestPackage(t *stdtesting.T) {

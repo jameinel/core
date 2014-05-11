@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"launchpad.net/juju-core/names"
+	"github.com/wallyworld/core/names"
 )
 
 const (

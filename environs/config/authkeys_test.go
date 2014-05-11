@@ -11,10 +11,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/ssh"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 type AuthKeysSuite struct {

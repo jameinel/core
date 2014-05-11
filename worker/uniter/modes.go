@@ -9,13 +9,13 @@ import (
 
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/worker"
-	ucharm "launchpad.net/juju-core/worker/uniter/charm"
-	"launchpad.net/juju-core/worker/uniter/hook"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/charm/hooks"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/watcher"
+	"github.com/wallyworld/core/worker"
+	ucharm "github.com/wallyworld/core/worker/uniter/charm"
+	"github.com/wallyworld/core/worker/uniter/hook"
 )
 
 // Mode defines the signature of the functions that implement the possible

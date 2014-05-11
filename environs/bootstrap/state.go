@@ -11,10 +11,10 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/storage"
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/storage"
+	coreerrors "github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
 )
 
 // StateFile is the name of the file where the provider's state is stored.

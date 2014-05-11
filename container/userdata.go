@@ -9,8 +9,8 @@ import (
 
 	"github.com/juju/loggo"
 
-	coreCloudinit "launchpad.net/juju-core/cloudinit"
-	"launchpad.net/juju-core/environs/cloudinit"
+	coreCloudinit "github.com/wallyworld/core/cloudinit"
+	"github.com/wallyworld/core/environs/cloudinit"
 )
 
 var (

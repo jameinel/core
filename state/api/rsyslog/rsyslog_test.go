@@ -6,8 +6,8 @@ package rsyslog_test
 import (
 	gc "launchpad.net/gocheck"
 
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	apitesting "launchpad.net/juju-core/state/api/testing"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	apitesting "github.com/wallyworld/core/state/api/testing"
 )
 
 type rsyslogSuite struct {

@@ -25,8 +25,8 @@ import (
 	"labix.org/v2/mgo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/cert"
+	"github.com/wallyworld/core/utils"
 )
 
 var (

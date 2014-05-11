@@ -6,8 +6,8 @@ package kvm
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/errors"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/errors"
 )
 
 type kvmContainer struct {

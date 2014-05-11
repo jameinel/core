@@ -1,9 +1,9 @@
 package juju_test
 
 import (
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/juju"
-	"launchpad.net/juju-core/state/api"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/juju"
+	"github.com/wallyworld/core/state/api"
 )
 
 type mockAPIState struct {

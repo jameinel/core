@@ -11,7 +11,7 @@ import (
 	"labix.org/v2/mgo/bson"
 	"labix.org/v2/mgo/txn"
 
-	"launchpad.net/juju-core/errors"
+	"github.com/wallyworld/core/errors"
 )
 
 // annotatorDoc represents the internal state of annotations for an Entity in

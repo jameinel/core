@@ -16,12 +16,12 @@ import (
 	"github.com/errgo/errgo"
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/cert"
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/schema"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/cert"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/schema"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
 )
 
 var logger = loggo.GetLogger("juju.environs.config")
@@ -359,7 +359,7 @@ func isEmpty(val interface{}) bool {
 	case int:
 		// TODO(rog) fix this to return false when
 		// we can lose backward compatibility.
-		// https://bugs.launchpad.net/juju-core/+bug/1224492
+		// https://bugs.github.com/wallyworld/core/+bug/1224492
 		return val == 0
 	case string:
 		return val == ""

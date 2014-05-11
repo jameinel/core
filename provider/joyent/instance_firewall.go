@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/instance"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/instance"
 
 	"github.com/joyent/gosdc/cloudapi"
 )

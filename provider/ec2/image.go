@@ -6,9 +6,9 @@ package ec2
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/instances"
-	"launchpad.net/juju-core/environs/simplestreams"
+	"github.com/wallyworld/core/environs/imagemetadata"
+	"github.com/wallyworld/core/environs/instances"
+	"github.com/wallyworld/core/environs/simplestreams"
 )
 
 // signedImageDataOnly is defined here to allow tests to override the content.

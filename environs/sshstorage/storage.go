@@ -18,9 +18,9 @@ import (
 
 	"github.com/juju/loggo"
 
-	coreerrors "launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/utils/ssh"
+	coreerrors "github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/utils/ssh"
 )
 
 var logger = loggo.GetLogger("juju.environs.sshstorage")

@@ -13,7 +13,7 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/juju/osenv"
+	"github.com/wallyworld/core/juju/osenv"
 )
 
 var (

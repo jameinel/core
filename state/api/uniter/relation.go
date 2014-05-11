@@ -6,8 +6,8 @@ package uniter
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state/api/params"
 )
 
 // This module implements a subset of the interface provided by

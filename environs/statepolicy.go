@@ -4,9 +4,9 @@
 package environs
 
 import (
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/state"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/state"
 )
 
 // environStatePolicy implements state.Policy in

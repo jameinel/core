@@ -8,8 +8,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type proxySuite struct {

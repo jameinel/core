@@ -8,11 +8,11 @@ import (
 
 	jc "github.com/juju/testing/checkers"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/imagemetadata"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/provider/common"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/imagemetadata"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/provider/common"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 type archSuite struct {

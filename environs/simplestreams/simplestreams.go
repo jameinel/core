@@ -20,8 +20,8 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/utils"
 )
 
 var logger = loggo.GetLogger("juju.environs.simplestreams")

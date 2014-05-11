@@ -6,9 +6,9 @@ package peergrouper_test
 import (
 	gc "launchpad.net/gocheck"
 
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/worker/peergrouper"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/worker/peergrouper"
 )
 
 type InitiateSuite struct {

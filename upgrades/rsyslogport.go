@@ -4,7 +4,7 @@
 package upgrades
 
 import (
-	"launchpad.net/juju-core/environs/config"
+	"github.com/wallyworld/core/environs/config"
 )
 
 func updateRsyslogPort(context Context) error {

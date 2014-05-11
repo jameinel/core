@@ -9,13 +9,13 @@ import (
 	"github.com/juju/loggo"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/uniter"
-	apiwatcher "launchpad.net/juju-core/state/api/watcher"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/worker"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/api/uniter"
+	apiwatcher "github.com/wallyworld/core/state/api/watcher"
+	"github.com/wallyworld/core/state/watcher"
+	"github.com/wallyworld/core/worker"
 )
 
 var filterLogger = loggo.GetLogger("juju.worker.uniter.filter")

@@ -9,10 +9,10 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	ft "launchpad.net/juju-core/testing/filetesting"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/utils/set"
-	"launchpad.net/juju-core/worker/uniter/charm"
+	ft "github.com/wallyworld/core/testing/filetesting"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/utils/set"
+	"github.com/wallyworld/core/worker/uniter/charm"
 )
 
 type ManifestDeployerSuite struct {

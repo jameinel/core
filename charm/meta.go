@@ -12,8 +12,8 @@ import (
 
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/schema"
+	"github.com/wallyworld/core/charm/hooks"
+	"github.com/wallyworld/core/schema"
 )
 
 // RelationScope describes the scope of a relation.

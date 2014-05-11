@@ -9,11 +9,11 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/charm/hooks"
-	"launchpad.net/juju-core/state/api/params"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/worker/uniter/hook"
-	"launchpad.net/juju-core/worker/uniter/relation"
+	"github.com/wallyworld/core/charm/hooks"
+	"github.com/wallyworld/core/state/api/params"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/worker/uniter/hook"
+	"github.com/wallyworld/core/worker/uniter/relation"
 )
 
 func Test(t *stdtesting.T) { coretesting.MgoTestPackage(t) }

@@ -8,13 +8,13 @@ import (
 
 	"github.com/juju/loggo"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/container/kvm"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/network"
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/tools"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/container/kvm"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/network"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/tools"
 )
 
 var kvmLogger = loggo.GetLogger("juju.provisioner.kvm")

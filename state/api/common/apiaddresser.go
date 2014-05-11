@@ -4,10 +4,10 @@
 package common
 
 import (
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/state/api/base"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/api/watcher"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/state/api/base"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/api/watcher"
 )
 
 // APIAddresser provides common client-side API

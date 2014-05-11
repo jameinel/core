@@ -10,8 +10,8 @@ import (
 	"launchpad.net/gnuflag"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type ArgsSuite struct {

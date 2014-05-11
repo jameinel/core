@@ -13,10 +13,10 @@ import (
 	"github.com/juju/loggo"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/environs/simplestreams"
-	sstesting "launchpad.net/juju-core/environs/simplestreams/testing"
-	coretesting "launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/environs/simplestreams"
+	sstesting "github.com/wallyworld/core/environs/simplestreams/testing"
+	coretesting "github.com/wallyworld/core/testing"
 )
 
 type SignMetadataSuite struct{}

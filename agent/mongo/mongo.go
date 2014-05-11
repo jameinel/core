@@ -17,12 +17,12 @@ import (
 	"github.com/juju/loggo"
 	"labix.org/v2/mgo"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/replicaset"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/upstart"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/replicaset"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/upstart"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
 )
 
 const (

@@ -6,7 +6,7 @@ package maas
 import (
 	"launchpad.net/gomaasapi"
 
-	"launchpad.net/juju-core/environs"
+	"github.com/wallyworld/core/environs"
 )
 
 var (

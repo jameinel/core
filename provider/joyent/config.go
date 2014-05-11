@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/schema"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/schema"
+	"github.com/wallyworld/core/utils"
 )
 
 // boilerplateConfig will be shown in help output, so please keep it up to

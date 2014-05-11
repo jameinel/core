@@ -11,8 +11,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/environs/tools"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type buildSuite struct {

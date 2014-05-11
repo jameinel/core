@@ -7,8 +7,8 @@ import (
 	"labix.org/v2/mgo/bson"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/version"
 )
 
 var _ = gc.Suite(&marshalSuite{})

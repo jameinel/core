@@ -4,8 +4,8 @@
 package common
 
 import (
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
 )
 
 // DeadEnsurer implements a common EnsureDead method for use by

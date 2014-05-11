@@ -9,12 +9,12 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/instance"
-	jujutesting "launchpad.net/juju-core/juju/testing"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/instance"
+	jujutesting "github.com/wallyworld/core/juju/testing"
+	"github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/version"
 )
 
 func CreateContainer(c *gc.C, manager container.Manager, machineId string) instance.Instance {

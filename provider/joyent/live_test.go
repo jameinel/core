@@ -11,12 +11,12 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/environs/jujutest"
-	envtesting "launchpad.net/juju-core/environs/testing"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/environs/jujutest"
+	envtesting "github.com/wallyworld/core/environs/testing"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/version"
 )
 
 // uniqueName is generated afresh for every test run, so that

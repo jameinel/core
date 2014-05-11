@@ -1,8 +1,8 @@
 package juju
 
 import (
-	"launchpad.net/juju-core/environs/configstore"
-	"launchpad.net/juju-core/state/api"
+	"github.com/wallyworld/core/environs/configstore"
+	"github.com/wallyworld/core/state/api"
 )
 
 var (

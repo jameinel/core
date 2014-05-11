@@ -6,7 +6,7 @@ package cloudinit
 import (
 	"fmt"
 
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/utils"
 )
 
 // progressFd is the file descriptor to which progress is logged.

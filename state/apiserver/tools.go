@@ -14,14 +14,14 @@ import (
 	"path"
 	"strings"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/filestorage"
-	"launchpad.net/juju-core/environs/sync"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/filestorage"
+	"github.com/wallyworld/core/environs/sync"
+	envtools "github.com/wallyworld/core/environs/tools"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	"github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/version"
 )
 
 // toolsHandler handles tool upload through HTTPS in the API server.

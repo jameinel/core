@@ -10,10 +10,10 @@ package testing
 import (
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/container"
-	"launchpad.net/juju-core/container/kvm"
-	"launchpad.net/juju-core/container/kvm/mock"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/container"
+	"github.com/wallyworld/core/container/kvm"
+	"github.com/wallyworld/core/container/kvm/mock"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 // TestSuite replaces the kvm factory that the manager uses with a mock

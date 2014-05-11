@@ -9,8 +9,8 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/rpc/rpcreflect"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/rpc/rpcreflect"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 // We test rpcreflect in this package, so that the

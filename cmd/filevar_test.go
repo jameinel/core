@@ -11,9 +11,9 @@ import (
 	"launchpad.net/gnuflag"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/testing"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/testing"
 )
 
 type FileVarSuite struct {

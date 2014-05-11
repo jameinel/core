@@ -9,9 +9,9 @@ import (
 	"github.com/juju/ratelimit"
 	"launchpad.net/tomb"
 
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/instance"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/instance"
 )
 
 type instanceGetter interface {

@@ -8,18 +8,18 @@ import (
 
 	"github.com/errgo/errgo"
 
-	"launchpad.net/juju-core/agent"
-	coreCloudinit "launchpad.net/juju-core/cloudinit"
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/environs/cloudinit"
-	"launchpad.net/juju-core/environs/config"
-	"launchpad.net/juju-core/errors"
-	"launchpad.net/juju-core/juju/osenv"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/utils"
+	"github.com/wallyworld/core/agent"
+	coreCloudinit "github.com/wallyworld/core/cloudinit"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/environs/cloudinit"
+	"github.com/wallyworld/core/environs/config"
+	"github.com/wallyworld/core/errors"
+	"github.com/wallyworld/core/juju/osenv"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/utils"
 )
 
 // DataDir is the default data directory.

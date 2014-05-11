@@ -10,8 +10,8 @@ import (
 	gc "launchpad.net/gocheck"
 
 	jc "github.com/juju/testing/checkers"
-	coretesting "launchpad.net/juju-core/testing"
-	"launchpad.net/juju-core/utils"
+	coretesting "github.com/wallyworld/core/testing"
+	"github.com/wallyworld/core/utils"
 )
 
 type limiterSuite struct{}

@@ -4,14 +4,14 @@
 package upgrader
 
 import (
-	"launchpad.net/juju-core/environs"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/names"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
-	"launchpad.net/juju-core/state/watcher"
-	"launchpad.net/juju-core/version"
+	"github.com/wallyworld/core/environs"
+	envtools "github.com/wallyworld/core/environs/tools"
+	"github.com/wallyworld/core/names"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
+	"github.com/wallyworld/core/state/watcher"
+	"github.com/wallyworld/core/version"
 )
 
 // UnitUpgraderAPI provides access to the UnitUpgrader API facade.

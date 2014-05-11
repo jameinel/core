@@ -8,9 +8,9 @@ import (
 
 	"labix.org/v2/mgo"
 
-	"launchpad.net/juju-core/agent"
-	"launchpad.net/juju-core/agent/mongo"
-	"launchpad.net/juju-core/replicaset"
+	"github.com/wallyworld/core/agent"
+	"github.com/wallyworld/core/agent/mongo"
+	"github.com/wallyworld/core/replicaset"
 )
 
 // InitiateMongoParams holds parameters for the MaybeInitiateMongo call.

@@ -8,8 +8,8 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/testing/testbase"
-	"launchpad.net/juju-core/version/ubuntu"
+	"github.com/wallyworld/core/testing/testbase"
+	"github.com/wallyworld/core/version/ubuntu"
 )
 
 type simplestreamsSuite struct {

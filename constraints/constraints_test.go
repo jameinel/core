@@ -11,8 +11,8 @@ import (
 	gc "launchpad.net/gocheck"
 	"launchpad.net/goyaml"
 
-	"launchpad.net/juju-core/constraints"
-	"launchpad.net/juju-core/instance"
+	"github.com/wallyworld/core/constraints"
+	"github.com/wallyworld/core/instance"
 )
 
 func TestPackage(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 
 	"launchpad.net/gnuflag"
 
-	"launchpad.net/juju-core/bzr"
-	"launchpad.net/juju-core/charm"
-	"launchpad.net/juju-core/cmd"
-	"launchpad.net/juju-core/cmd/envcmd"
+	"github.com/wallyworld/core/bzr"
+	"github.com/wallyworld/core/charm"
+	"github.com/wallyworld/core/cmd"
+	"github.com/wallyworld/core/cmd/envcmd"
 )
 
 type PublishCommand struct {

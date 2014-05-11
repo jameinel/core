@@ -6,10 +6,10 @@
 package agent
 
 import (
-	"launchpad.net/juju-core/agent/mongo"
-	"launchpad.net/juju-core/state"
-	"launchpad.net/juju-core/state/api/params"
-	"launchpad.net/juju-core/state/apiserver/common"
+	"github.com/wallyworld/core/agent/mongo"
+	"github.com/wallyworld/core/state"
+	"github.com/wallyworld/core/state/api/params"
+	"github.com/wallyworld/core/state/apiserver/common"
 )
 
 // API implements the API provided to an agent.

@@ -7,9 +7,9 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/instance"
-	"launchpad.net/juju-core/provider/local"
-	"launchpad.net/juju-core/testing/testbase"
+	"github.com/wallyworld/core/instance"
+	"github.com/wallyworld/core/provider/local"
+	"github.com/wallyworld/core/testing/testbase"
 )
 
 type lxcTest struct {

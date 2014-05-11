@@ -7,7 +7,7 @@ import (
 	jc "github.com/juju/testing/checkers"
 	gc "launchpad.net/gocheck"
 
-	"launchpad.net/juju-core/state"
+	"github.com/wallyworld/core/state"
 )
 
 type NetworkInterfaceSuite struct {

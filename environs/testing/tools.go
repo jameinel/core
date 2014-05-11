@@ -11,17 +11,17 @@ import (
 
 	gc "launchpad.net/gocheck"
 
-	agenttools "launchpad.net/juju-core/agent/tools"
-	"launchpad.net/juju-core/environs"
-	"launchpad.net/juju-core/environs/simplestreams"
-	"launchpad.net/juju-core/environs/storage"
-	envtools "launchpad.net/juju-core/environs/tools"
-	"launchpad.net/juju-core/state"
-	coretesting "launchpad.net/juju-core/testing"
-	coretools "launchpad.net/juju-core/tools"
-	"launchpad.net/juju-core/utils"
-	"launchpad.net/juju-core/version"
-	"launchpad.net/juju-core/worker/upgrader"
+	agenttools "github.com/wallyworld/core/agent/tools"
+	"github.com/wallyworld/core/environs"
+	"github.com/wallyworld/core/environs/simplestreams"
+	"github.com/wallyworld/core/environs/storage"
+	envtools "github.com/wallyworld/core/environs/tools"
+	"github.com/wallyworld/core/state"
+	coretesting "github.com/wallyworld/core/testing"
+	coretools "github.com/wallyworld/core/tools"
+	"github.com/wallyworld/core/utils"
+	"github.com/wallyworld/core/version"
+	"github.com/wallyworld/core/worker/upgrader"
 )
 
 // ToolsFixture is used as a fixture to stub out the default tools URL so we
